@@ -5,6 +5,7 @@ Classification------------------
 Find the answer in the uploaded pdf.
 
 2. How do I know which model to choose for my problem ?
+
 First you need to figure out whether your problem is linear or non linear. 
 
 If your problem is linear, you should go for Logistic Regression or SVM.
