@@ -18,6 +18,52 @@ There are other models:
 4. Seq2Seq (many applications)
 (The Seq2Seq or Chatbots are other more advanced models.)
 
+#Here is a brief breakdown of the recent developments in chronological order:
+
+Word embedding – Also known as distributional vectors, which are used to recognize words appearing in similar sentences with similar meanings. 
+Shallow neural networks are used to predict a word based on the context. 
+In 2013, Word2vec model was created to compute the conditional probability of a word being used, given the context.
+Convolutional Neural Networks (CNN) – A major breakthrough in NLP (described in the previous section).
+Recurrent Neural Networks (RNN) – Described in the previous section.
+Recursive Neural Networks – natural mechanisms to model sequential data.
+Reinforcement Learning – Algorithmic learning method that uses rewards to train agents to perform actions.
+Unsupervised Learning – Involves mapping sentences to vectors without supervision.
+Deep Generative Models – Models such as Variational Autoencoders (VAEs) that generate natural sentences from code.
+!!!!BERT algorithm has been the most significant breakthrough in NLP since its inception. 
+BERT stands for Bidirectional Encoder Representations from Transformers
+
+The amazing thing is that all of these developments (and more) have occurred within the last 7 years, and most of them within the last 3 years.
+This really is the golden age of NLP and everything so far has been leading up to the revolutionary birth of BERT.
+BERT is a deep learning framework, developed by Google, that can be applied to NLP. 
+Bidirectional (B)
+
+#BERT:
+2019 was arguably the year that BERT really came of age.
+Application areas for BERT: for sentiment analysis, recommendation systems, text summary, and document retrieval.
+This means that the NLP BERT framework learns information from both the right and left side of a word (or token in NLP parlance). 
+This makes it more efficient at understanding context. 
+Not only is it a framework that has been pre-trained with the biggest data set ever used, it is also remarkably easy to adapt to different NLP applications, 
+by adding additional output layers. This allows users to create sophisticated and precise models to carry out a wide variety of NLP tasks.
+BERT is an example of a pretrained system, in which the entire text of Wikipedia and Google Books have been processed and analyzed.
+
+-This refers to an encoder which is a program or algorithm used to learn a representation from a set of data. 
+ In BERT’s case, the set of data is vast, drawing from both Wikipedia (2,500 millions words) and Google’s book corpus (800 million words). 
+ 
+ Compressed BERT models – In the second half of 2019 some compressed versions arrived such as DistilBERT, TinyBert and ALBERT. DistilBERT, 
+ for example, halved the number of parameters, but retains 95% of the performance, making it ideal for those with limited computational power.
+ 
+ in 2019 XLNet outperformed BERT. It uses “permutation language modeling” which predicts a token, having been given some of the context, 
+ but rather than predicting the tokens in a set sequence, it predicts them randomly. This method means that more tokens can be predicted overall,
+ as the context is built around it by other tokens. 
+ 
+ ERNIE, also released in 2019, continued in the Sesame Street theme – ELMo (Embeddings from Language Models), BERT, 
+ ERNIE (Enhanced Representation through kNowledge IntEgration). ERNIE draws on more information from the web to pretrain the model, 
+ including encyclopedias, social media, news outlets, forums, etc. This allows it to find even more context when predicting tokens, 
+ which speeds the process up further still.
+ 
+ In terms of performance,  the compressed models such as ALBERT and Roberta, and the recent XLNet model are the only ones beating the original NLP BERT 
+ in terms of performance. In a recent machine performance test of SAT-like reading comprehension, ALBERT scored 89.4%, ahead of BERT at 72%. 
+
 #####################
 If you are up for some practical activities, here is a little challenge:
 
