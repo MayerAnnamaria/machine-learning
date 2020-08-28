@@ -84,8 +84,4 @@ F1 Score = 2 * Precision * Recall / (Precision + Recall)
 
 3. Try even other classification models that we haven't covered in Part 3 - Classification. Good ones for NLP include:
 
-CART
-
-C5.0
-
-Maximum Entropy
+CART, C5.0, Maximum Entropy
